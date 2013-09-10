@@ -37,7 +37,7 @@ setup(
     ],
     install_requires = [
         'setuptools>=0.6b1',
-        'Django',
+        'Django<1.4',
         'markdown2',
     ],
 )
